@@ -1,3 +1,5 @@
-export default  function number(){
-  return 42;
+export default async function start() {
+  return await Promise.resolve('Async is working');
 }
+
+

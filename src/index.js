@@ -1,4 +1,4 @@
 import './src/styles/styles.css'
-import number from "./app";
+import start from "./app";
 
-console.log(number());
+start().then(console.log);
